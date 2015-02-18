@@ -47,8 +47,8 @@ class Module
         return $id;
     }
 
-    public static function getConstants() {
-        return $this->map;
+    public function getConstants() {
+        return $this->constants;
     }
 
     public function __construct($name)
